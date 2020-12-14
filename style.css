@@ -97,12 +97,9 @@ body{
     display: table;
     clear: both;
 }
+
 .column:hover{
     transform: scale(1.5);
-}
-
-#column2{
-	margin-left: 160px;
 }
 
 #homepage3img{
@@ -129,6 +126,14 @@ body{
    	margin-bottom: 80px;
 }    
 
+.row{
+  margin-left: 20%;
+}
+
+.row2{
+  margin-left: 20%;
+}
+
 .row2:after{
     content: "";    
     display: table;
@@ -136,10 +141,6 @@ body{
 }
 .column4:hover{
     transform: scale(1.5);
-}
-
-#column3{
-	margin-left: 280px;
 }
 
 #logoimage{
@@ -165,18 +166,97 @@ body{
 	color: grey;
 }
 
+.blank{
+  color: transparent;
+}
 
+#Preface{
+  font-size: 30px;
+  color: #b8bdc1;
+}
 
+#sportpreface{
+  height: 240px;
+  width: 800px;
+  background-color: #454c54;
+  padding: 30px;
+  border-radius: 20px 20px 20px 20px;
+  border-image: url(p2.jpg) 30 round;
+  color: white;
+  font-size: 25px;
+}
 
+.title{
+  font-size: 45px;
+  color: #b8bdc1;
+}
 
+#sports{
+  background-image: url(bgi4.jpg);
+  background-size: 2000px 1000px;
+}
 
+.sportbike{
+  font-size: 25px;
+  font-style:bold;
+  color: rgb(202 142 136);
+  
+}
 
+#sportsbottom{
+  color: white;
+}
 
+#wheelb{
+  margin-left: 5%;
+  margin-right:15%;
+}
 
+#prefaceb{
+  margin-left: 20%;
+}
 
+#academic{
+  background-image: url(bgacademic.jpg);
+  background-size: 100% 1000px;
+}
 
+#result1{
+  color: white;
+}
 
+.Youmans-class4{
+  background-color: rgb(123 126 128);
+  width: 550px;
+  border: 10px line black;
+  padding: 15px;
+  font-size: 30px;
+  font-family: Times new roman;
+}
 
+#hobbies{
+  background-image: url(hobbies.jpg);
+  background-size: 100% 1900px;
+}
 
+#Youmans-id1{
+  font-family: Times new roman;
+  font-size: 80px;
+  color: rgb(229 229 227);
+}
+
+#hobbiespreface{
+  height: 160px;
+  width: 800px;
+  background-color: #454c54;
+  padding: 30px;
+  border-radius: 20px 20px 20px 20px;
+  color: white;
+  font-size: 25px;
+}
+
+#waiting{
+  font-size: 80px;
+}
 
 
