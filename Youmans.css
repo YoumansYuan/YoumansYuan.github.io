@@ -2,8 +2,28 @@ body{
 	background-color: white;
 }
 
+
+#advice{
+    width: 97%;
+    background-color: grey;
+    padding: 15px;
+    border-radius: 20px 20px 20px 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+#googlelink{
+	text-decoration: none;
+}
+
+#googleimage{
+    width: 50px;
+    height: 50px;
+}
+
 .navigation{
     	background-color: black;
+    	position: relative;
 }
 
 .navigation a{
@@ -36,6 +56,127 @@ body{
     float: right;
 }
 
-#hi{
-    color: red;
+#headline{
+    font-size: 40px;
 }
+
+#homepage1img{
+    float: left;
+    width: 100%;
+    margin-left: 3px;
+}
+
+.homepage1{
+    width: 350px;
+    height: 350px;
+    margin: 3px;
+    margin-bottom: 40px;
+}
+
+#headlinemid{
+	font-size: 30px;
+}
+
+#headlinesmall{
+	color: grey;
+}
+
+.column{
+    float: left;
+   	width: 350px;
+   	padding: 10px;
+   	height: 350px;
+   	transition: transform 0.5s;  
+   	background-size: 400px,400px;  
+   	margin: 3px;
+   	margin-bottom: 80px;
+}    
+
+.row:after{
+    content: "";    
+    display: table;
+    clear: both;
+}
+.column:hover{
+    transform: scale(1.5);
+}
+
+#column2{
+	margin-left: 160px;
+}
+
+#homepage3img{
+    float: left;
+    width: 100%;
+    margin-left: 3px;
+}
+
+.homepage3{
+    width: 500px;
+    height: 350px;
+    margin: 3px;
+    margin-bottom: 40px;
+}
+
+.column4{
+    float: left;
+   	width: 420px;
+   	padding: 10px;
+   	height: 310px;
+   	transition: transform 0.5s;  
+   	background-size: 450px,450px;  
+   	margin: 3px;
+   	margin-bottom: 80px;
+}    
+
+.row2:after{
+    content: "";    
+    display: table;
+    clear: both;
+}
+.column4:hover{
+    transform: scale(1.5);
+}
+
+#column3{
+	margin-left: 280px;
+}
+
+#logoimage{
+    width: 100px;
+    height: 100px;
+}
+
+#contact, tr, td, th{
+	border: 1px solid transparent;
+	font-family: Times New Roman;
+	font-size: 28px;
+}
+
+.logoname{
+	text-align: right;
+}
+
+.blanktable{
+	color: transparent;
+}
+
+#logoclick{
+	color: grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
