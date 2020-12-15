@@ -20,12 +20,58 @@ var x = new Date();
 
 
 var a = Math.floor(Math.random()*10);
-  document.getElementById('number').innerHTML= a;
-  var b = prompt("what is your guess between 0 - 10?");
-  if(a<b){
-    document.getElementById('result').innerHTML = "your guess is too big";
-  }else if(a>b){
-    document.getElementById('result').innerHTML = "your guess is too small";
-  }else{
-    document.getElementById('result').innerHTML = "that is right guess";
+	document.getElementById('number').innerHTML= a;
+	var b = prompt("what is your guess between 0 - 10?");
+	if(a<b){
+		document.getElementById('result').innerHTML = "your guess is too big";
+	}else if(a>b){
+		document.getElementById('result').innerHTML = "your guess is too small";
+	}else{
+		document.getElementById('result').innerHTML = "that is right guess";
+	}
+
+
+
+function ages(){
+  var x = prompt("what's your age");
+  if (x<=18){
+    alert("you are too young");
   }
+  else if(x>18&&x<60){
+    alert("you are in a good age");
+  }
+  else if(x>=60){
+    alert("you are too old");
+  }
+  else{
+    alert("please indicate your age as a number");
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

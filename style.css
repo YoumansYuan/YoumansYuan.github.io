@@ -259,4 +259,56 @@ body{
   font-size: 80px;
 }
 
+#experience{
+	background-image: url(https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3632391266,2964176733&fm=26&gp=0.jpg);
+}
+#experiencetable{
+	background-color: lightgrey;
+		width: 800px;
+		border: 10px double green;
+		padding: -110px;
+		line-height: 30px;
+		font-family: Times New Roman;
+		font-variant: normal;
+		margin-top: 50px;
+		margin-left: 20%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
