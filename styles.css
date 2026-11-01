@@ -152,6 +152,18 @@ ul { margin: 0; padding: 0; }
   background: var(--surface); border: 1px solid var(--line); color: var(--ink-2);
 }
 
+/* Key projects inside a job */
+.projects-list { display: grid; gap: 12px; margin-top: 4px; }
+.proj {
+  background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 18px 20px;
+}
+.proj h5 { margin: 0; font: 650 17px var(--serif); letter-spacing: -.01em; }
+.proj p { margin: 6px 0 0; font-size: 15px; }
+.proj ul { list-style: none; margin-top: 8px; }
+.proj ul li { position: relative; padding-left: 20px; margin: 5px 0; color: var(--ink-2); font-size: 15px; }
+.proj ul li::before { content: ""; position: absolute; left: 2px; top: .7em; width: 8px; height: 2px; background: var(--accent); }
+.job-body > ul:not(.tags) li strong, .card ul:not(.tags) li strong { color: var(--ink); font-weight: 600; }
+
 /* Cards */
 .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
 .card {
@@ -173,6 +185,7 @@ ul { margin: 0; padding: 0; }
 .skills-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; }
 .skill-group { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 24px; }
 .skill-group h3 { font-size: 16px; font-weight: 600; }
+.skill-wide { grid-column: 1 / -1; }
 .skill-group .tags { margin-top: 14px; }
 .certs { margin-top: 40px; }
 .certs h3 { font: 650 22px var(--serif); margin-bottom: 16px; }
@@ -181,6 +194,7 @@ ul { margin: 0; padding: 0; }
 .certs li::before {
   content: "✓"; position: absolute; left: 0; top: 12px; color: var(--accent); font-weight: 600;
 }
+.certs li.cert-key { font-weight: 600; color: var(--ink); }
 
 /* Beyond */
 .beyond { display: grid; grid-template-columns: 1fr 1.7fr; gap: 40px; align-items: start; }
