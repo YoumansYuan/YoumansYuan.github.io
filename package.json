@@ -1,0 +1,16 @@
+{
+  "name": "youmans-site",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "description": "Personal website of Shaojun (Youmans) Yuan",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2",
+    "vite": "^8.3.5"
+  }
+}
